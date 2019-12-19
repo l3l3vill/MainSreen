@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/mainCarouselFragment">
+
+    <fragment
+        android:id="@+id/mainCarouselFragment"
+        android:name="com.example.mainsreen.Ui.MainCarouselFragment"
+        android:label="main_carousel_fragment"
+        tools:layout="@layout/main_carousel_fragment" />
+</navigation>
